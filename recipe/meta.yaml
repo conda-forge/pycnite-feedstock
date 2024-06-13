@@ -1,5 +1,5 @@
 {% set name = "pycnite" %}
-{% set version = "2024.5.27" %}
+{% set version = "2024.6.13" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pycnite-{{ version }}.tar.gz
-  sha256: 825949037eba62a6c46a22c998ea8be83d0136ca5297d30ec6941b886af34628
+  sha256: 301c5d7e2e2f61e5535d0af7c4486f3ea4f5083c4808a7645a55ddb45cb25027
 
 build:
   noarch: python
